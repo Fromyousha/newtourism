@@ -1,0 +1,179 @@
+.heading1 {
+    text-align: center;
+    text-shadow: 2px 0px gray;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    height: 250px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: midnightblue;
+    border-radius: 20px;
+    position: fixed;
+    width: 98%;
+    margin-bottom: 12px;
+    height: 100px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+nav ul li a:hover {
+    color: darkseagreen;
+    transition: 0.3s;
+}
+
+div {
+    color: azure;
+    border-radius: 20%;
+}
+
+.logopage {
+    margin-bottom: 20px;
+    text-align: left;
+    margin: 20px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+* {
+    font-family: Poppins-Regular;
+}
+
+.packagestour {
+    width: 100%;
+    height: 250px;
+    background-color: white;
+}
+
+.logopage {
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+* {
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+    transition: .3s linear;
+
+}
+
+.container {
+    display: flex;
+    gap: 15px;
+}
+
+.box {
+    height: 250px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px darkgray;
+    background-color: gray;
+    justify-content: space-between;
+
+}
+
+.sindhpic {
+    height: 100px;
+}
+
+.punjabmosque {
+    height: 100px;
+}
+
+.box h3 {
+    color: black;
+    padding: 10px 0;
+}
+
+.box p {
+    color: black;
+    padding: 10px;
+}
+
+div p:hover {
+    color: white;
+    transition: 0.3s;
+}
+
+.khyberpass {
+    height: 100px;
+}
+
+.gbpic {
+    height: 100px;
+}
+
+.sindhbtn {
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    margin-top: 15px;
+    padding: 8px 15px;
+    background: #333;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.sindhbtn:hover {
+    color: black;
+    transition: 0.3s
+}
+
+.schedule {
+    margin: auto;
+    width: 900px;
+    height: 150px;
+    background-color: burlywood;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.tourschedulepic{
+    height: 150px;
+    border-radius: 10px;
+    position: right;
+}
+.schedule h3{
+color: black;}
+.tourbutton{
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    margin-top: 15px;
+    padding: 8px 15px;
+    background: #333;
+    border-radius: 5px;
+    display:inline-block;
+    text-decoration: none;
+    float:inline-start;
+}
